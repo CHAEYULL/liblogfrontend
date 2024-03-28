@@ -23,6 +23,7 @@ let data = {
         .then((r)=>{return r.text()})
         .then((r)=>{
             console.log(r)
+            location.reload("/")
         })
         .catch((e)=>{
             console.log(`에러남 ${e}`)

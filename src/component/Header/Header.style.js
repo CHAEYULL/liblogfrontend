@@ -1,5 +1,5 @@
 import { styled } from 'styled-components';
-import {Link} from 'react-router-dom'
+
 export const navbar = styled.header `
 width: 85%;
 height: 30px;
@@ -25,5 +25,12 @@ font-weight : 400;
 padding : 5px; 
 cursor: pointer;
 `
-
-
+export const logout = styled.div`
+font-size : 16px;
+font-weight: 400;
+padding :5px;
+cursor : pointer;
+`
+export const flexBox = styled.div`
+display:flex;
+`
